@@ -1,0 +1,48 @@
+.WrapperClass{
+    
+    padding: 0px 20px;
+}
+body{
+    background: #FFFFCC;
+}
+
+
+
+h1{
+    background-color:#990000;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    border-bottom: solid  #CC0000 20px;
+    font-style: italic;
+}
+
+h2{
+    background-color: #009900;
+    color: white; 
+    padding-left: 10px;
+}
+
+.category{
+    font-style: italic;
+    color: #990000;
+}
+h4{
+    color: grey;
+    font-size: 18px;
+}
+
+.img_google{
+    background-color: white;
+    border: dotted gray 3px;
+    width: 170px;
+    height: 50px;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.table1{
+    
+    background-color: #CCCCCC;
+}
