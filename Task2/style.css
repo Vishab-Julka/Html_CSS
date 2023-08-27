@@ -32,6 +32,10 @@ h4{
     font-size: 18px;
 }
 
+span {
+    text-transform:uppercase;
+}
+
 .img_google{
     background-color: white;
     border: dotted gray 3px;
@@ -45,4 +49,14 @@ h4{
 .table1{
     
     background-color: #CCCCCC;
+}
+
+.comments {
+    padding-left: 10px;
+    background-color: white;
+    height:160px;
+    width:160px;
+    border:1px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow-y:scroll;
 }

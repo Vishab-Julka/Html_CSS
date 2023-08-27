@@ -9,68 +9,84 @@
 <body>
     <div class="WrapperClass">
         <h1 >My first web page</h1>
-        <h2>What this is</h2>
-        <p>Welcome to <em>my first</em> webpage. I created 
-            this webpage without the assistance of a webpage editor.
-        Just my little text editor and a keen <strong><span style="text-transform:uppercase;"><i>understanding of html</i></span></strong></p>
-        <h2>Why this is</h2>
-        <ul class="category">
-            <li>To learn HTML</li>
-            <li>List element
-                <ol>
-                    <li>Home</li>
-                    <li>FAQ</li>
-                    <li>Contact</li>
-                    <li>About</li>
-                </ol>
-            </li>
-            <li>Here I have created ordered and unordered list</li>
-        </ul>
-        <h2>ZeusLearning.com</h2>
-        <a href="https://www.zeuslearning.com/" target="_blank" >This link will open zeuslearnin in new tab</a>
-        <h2>On click of following image navigate to Google.com</h2>
-        <a href="https://www.google.com/" target="_blank"><div class="img_google"><img  src="google.png" width="120px" alt=""></div></a>
-        <h4>Some random table</h4>
-    
-        <table border="1"  class="table1">
-            
-            <tr>
-            <td>Row 1, cell 1</td>
-            <td>Row 1, cell 2</td>
-            <td>Row 1, cell 3</td>
-            </tr>
-            <tr>
-            <td>Row 2, cell 1</td>
-            <td>Row 2, cell 2</td>
-            <td>Row 2, cell 3</td>
-            </tr>
-            <tr>
-            <td>Row 3, cell 1</td>
-            <td>Row 3, cell 2</td>
-            <td>Row 3, cell 3</td>
-            </tr>
-            <tr>
-            <td>Row 4, cell 1</td>
-            <td>Row 4, cell 2</td>
-            <td>Row 4, cell 3</td>
-            </tr>
-    
-        </table>
-    
-        <h4>Some random form</h4>
-        <p><strong><i><span style="text-transform:uppercase;">Note:</span></i></strong> It looks the part but won't do a anything </p>
-        <p>Name:</p>
-        <input type="text" placeholder="Your name">
-        <p>Comments:</p>
-        <div style="padding-left: 10px; background-color: white; height:160px;width:160px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow-y:scroll;">
-            Your comments 
+
+        <div class="section-what">
+            <h2>What this is</h2>
+            <p>Welcome to <em>my first</em> webpage. I created 
+                this webpage without the assistance of a webpage editor.
+            Just my little text editor and a keen <strong><span><i>understanding of html</i></span></strong></p>
         </div>
-        <p>Are you:
-            <br>
-            <br><input type="radio" >Male<br>
-            <br><input type="radio" >Female
-        </p>
-        <button>Submit Query</button>
+        
+        <div class="section-why">
+            <h2>Why this is</h2>
+            <ul class="category">
+                <li>To learn HTML</li>
+                <li>List element
+                    <ol>
+                        <li>Home</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                        <li>About</li>
+                    </ol>
+                </li>
+                <li>Here I have created ordered and unordered list</li>
+            </ul>
+        </div>
+
+        <div class="section-home">
+            <h2>ZeusLearning.com</h2>
+            <a href="https://www.zeuslearning.com/" target="_blank" >This link will open zeuslearnin in new tab</a>    
+        </div>
+        
+        <div class="section-google">
+            <h2>On click of following image navigate to Google.com</h2>
+            <a href="https://www.google.com/" target="_blank"><div class="img_google"><img  src="google.png" width="120px" alt=""></div></a>
+        </div>
+
+        <div class="section-table">
+            <h4>Some random table</h4>
+            <table border="1"  class="table1">
+                
+                <tr>
+                <td>Row 1, cell 1</td>
+                <td>Row 1, cell 2</td>
+                <td>Row 1, cell 3</td>
+                </tr>
+                <tr>
+                <td>Row 2, cell 1</td>
+                <td>Row 2, cell 2</td>
+                <td>Row 2, cell 3</td>
+                </tr>
+                <tr>
+                <td>Row 3, cell 1</td>
+                <td>Row 3, cell 2</td>
+                <td>Row 3, cell 3</td>
+                </tr>
+                <tr>
+                <td>Row 4, cell 1</td>
+                <td>Row 4, cell 2</td>
+                <td>Row 4, cell 3</td>
+                </tr>
+        
+            </table>
+        </div>
+        
+        <div class="section-form">
+            <h4>Some random form</h4>
+            <p><strong><i><span >Note:</span></i></strong> It looks the part but won't do a anything </p>
+            <p>Name:</p>
+            <input type="text" placeholder="Your name">
+            <p>Comments:</p>
+            <div class="comments">
+                Your comments 
+            </div>
+            <p>Are you:
+                <br>
+                <br><input type="radio" >Male<br>
+                <br><input type="radio" >Female
+            </p>
+            <button>Submit Query</button>
+        </div>      
     </div>
 </body>
 </html>
