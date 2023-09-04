@@ -7,3 +7,5 @@ function myfunc(){
         x.type = "password";
     }
 }
+
+

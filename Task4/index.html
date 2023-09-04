@@ -23,8 +23,8 @@
         <h3>Log in with Quantum</h3>
       </div>
 
-      <form id="form">
-        <div class="radio-group">
+      <form id="form" action="./dashboard.html">
+        <div class="radio_group">
           <input type="radio" name="option" id="district" />
           <label for="district" style="margin-right: 50px">District</label>
           <input type="radio" name="option" id="inde" />
@@ -43,35 +43,37 @@
           <option>Mumbai University</option></select
         ><br />
 
-        <input placeholder="Username/Email ID*" class="uname" />
-        <p class="forgot">FORGOT USERNAME?</p>
-        <div style="display: flex">
-          <input
-            type="password"
-            placeholder="Password*"
-            id="pass"
-            class="uname"
-          />
-          <img
-            id="eye"
-            src="./images/eye.svg"
-            style="
-              border-bottom: 1px solid rgb(213, 212, 212);
-              padding-bottom: 2px;
-              cursor: pointer;
-            "
-            onclick="myfunc()"
-          />
-        </div>
+        <section>
+          <input placeholder="Username/Email ID*"  />
+          <p class="forgot">FORGOT USERNAME?</p>
+          <div style="display: flex">
+            <input
+              type="password"
+              placeholder="Password*"
+              id="pass"
+            />
+            <img
+              id="eye"
+              src="./images/eye.svg"
+              style="
+                border-bottom: 1px solid rgb(213, 212, 212);
+                padding-bottom: 2px;
+                cursor: pointer;
+              "
+              onclick="myfunc()"
+            />
+          </div>
+          <p class="forgot">FORGOT PASSWORD?</p>
+        </section>
+        
 
-        <p class="forgot">FORGOT PASSWORD?</p>
         <div class="remember">
           <input type="checkbox" id="remember" />
           <label for="remember">Remember Me</label><br />
         </div>
 
         <div class="btn">
-          <button>LOG IN</button>
+          <button >LOG IN</button>
         </div>
 
       </form>

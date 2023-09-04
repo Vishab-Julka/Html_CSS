@@ -164,7 +164,7 @@ body{
     margin: 15px 30px 0px 30px;
 }
 
-.container-1{
+.container_1{
     padding: 24px;
     margin: 15px 15px 15px 15px;
     padding-bottom: 0px;
@@ -172,7 +172,7 @@ body{
     background-color: white;
 }
 
-.container-2 {
+.container_2 {
     position: relative;
     display: inline-block;
 }
@@ -269,7 +269,7 @@ p > span {
     padding-bottom: 13px;
 }
 
-.img-effect{
+.img_effect{
     margin-left: 10px;
     width: 25px;
     height: 25px;
@@ -345,7 +345,7 @@ p > span {
     .items > div {
         margin-right: 30px;
     }
-    .container-1{
+    .container_1{
         width: 700px;
     }
     .head{

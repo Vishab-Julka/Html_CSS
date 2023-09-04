@@ -11,12 +11,14 @@ body{
 
 #header{
     background-image: url("./images//header-background.png");
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 70px;
     border-bottom: 3px solid rgb(136, 178, 245);
+
 }
 
 #header > img {
@@ -30,7 +32,13 @@ body{
     padding: 30px;
     border-top: 4px solid rgb(136, 227, 254);
     background-color:white ;
+    
 }
+
+select {
+    cursor: pointer;
+}
+
 
 #top{
     display:flex;
@@ -44,18 +52,18 @@ body{
     margin: auto auto;
 }
 
-.radio-group {
+.radio_group {
     margin-top: 40px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
 
-.radio-group > label {
+.radio_group > label {
     margin-left: 12px;
     font-size: 20px;
 }
-.radio-group input[type="radio"]{
+.radio_group input[type="radio"]{
     -webkit-appearance: none;
     border: none;
     width: 25px;
@@ -64,7 +72,7 @@ body{
     background-image: url(images/radio-button-off.svg);
 }
 
-.radio-group input[type="radio"]:checked{
+.radio_group input[type="radio"]:checked{
     background-size: 25px;
     background-image: url(images/radio-button-on.svg);
 }
@@ -94,7 +102,7 @@ label{
     background-position-y: -5px;
 }
 
-.uname{
+section input {
     border: none;
     width: 100%;
     border-bottom: 1px solid rgb(222, 222, 222);
