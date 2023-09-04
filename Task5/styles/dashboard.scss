@@ -1,0 +1,25 @@
+@import './function.scss';
+
+.dashboard{
+    margin: 100px 30px 0px 30px;
+    background-color: rgba(70, 164, 70, 0.777);
+    display: flex;
+}
+
+
+.course, .class{
+    padding: 15px;
+    @include flexcenter();
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course{
+    border-bottom: 5px solid black;
+}
+
+.course > h2, .class > h2 {
+    margin-right: 10px;
+    margin-left: 10px;
+}

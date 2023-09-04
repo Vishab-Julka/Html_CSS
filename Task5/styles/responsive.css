@@ -1,0 +1,28 @@
+@media only screen and (max-height: 1050px) {
+  .totalfooter {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .itm {
+    display: none;
+  }
+  .special {
+    display: block;
+  }
+  .items > div {
+    margin-right: 30px;
+  }
+  .container-1 {
+    width: 700px;
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .text > select {
+    width: 490px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,28 @@
+.totalfooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgba(128, 128, 128, 0.301);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.footer > span {
+  border-left: 1px solid rgba(82, 82, 82, 0.415);
+  height: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer > p {
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: rgb(69, 68, 68);
+}/*# sourceMappingURL=footer.css.map */

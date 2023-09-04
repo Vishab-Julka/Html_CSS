@@ -1,0 +1,18 @@
+@import './content.scss';
+@import './dashboard.scss';
+@import './footer.scss';
+@import './header.scss';
+@import './info.scss';
+@import './responsive.scss';
+@import './function.scss';
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgba(129, 219, 239, 0.182);
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+}
