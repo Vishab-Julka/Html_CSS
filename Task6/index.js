@@ -27,7 +27,7 @@ let value =  async () => {
 
     let div2 = document.createElement("div");
     if(i==3) {
-      div2.classList.add("container-1", "container-2");
+      div2.classList.add("container_1", "container_2");
       div1.appendChild(div2);
       let extradiv = document.createElement("div");
       extradiv.classList.add("expire");
@@ -35,7 +35,7 @@ let value =  async () => {
       div2.appendChild(extradiv);
     }
     else{
-      div2.classList.add("container-1");
+      div2.classList.add("container_1");
       div1.appendChild(div2);
     }
     
