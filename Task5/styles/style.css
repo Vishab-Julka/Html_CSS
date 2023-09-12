@@ -12,6 +12,7 @@
   padding-bottom: 0px;
   width: 590px;
   background-color: white;
+  cursor: pointer;
 }
 
 .container_2 {
@@ -218,7 +219,7 @@ p > span {
 }
 
 .items > div {
-  margin-right: 65px;
+  margin-right: 45px;
   color: rgb(32, 176, 113);
   font-size: 20px;
 }
